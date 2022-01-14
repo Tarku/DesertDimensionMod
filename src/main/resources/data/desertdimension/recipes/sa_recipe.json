@@ -1,0 +1,12 @@
+{
+  "group": "sand",
+  "type": "minecraft:smelting",
+  "experience": 2,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "desertdimension:wet_sand"
+  },
+  "result": {
+    "item": "minecraft:sand"
+  }
+}

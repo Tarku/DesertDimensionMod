@@ -1,0 +1,415 @@
+{
+  "mod_elements": [
+    {
+      "name": "Ankh",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ankh"
+    },
+    {
+      "name": "StoneOfIsis",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_of_isis"
+    },
+    {
+      "name": "SOIRecipe",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "soi_recipe"
+    },
+    {
+      "name": "Oasis",
+      "type": "biome",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oasis"
+    },
+    {
+      "name": "WetSandOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wet_sand_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "WetSand",
+      "type": "block",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wet_sand"
+    },
+    {
+      "name": "FDirt",
+      "type": "tag",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "f_dirt"
+    },
+    {
+      "name": "DesertDim",
+      "type": "dimension",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "desert_dim",
+      "metadata": {
+        "ep": false
+      }
+    },
+    {
+      "name": "DesertPortalMobplayerCollidesBlock",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "desert_portal_mobplayer_collides_block",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "DesertPortal",
+      "type": "fluid",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "desert_portal",
+      "metadata": {
+        "gb": false
+      }
+    },
+    {
+      "name": "CreatePortal",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "create_portal",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "HuskLoot",
+      "type": "loottable",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "husk_loot"
+    },
+    {
+      "name": "FishAnkh",
+      "type": "loottable",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fish_ankh"
+    },
+    {
+      "name": "DesertDimPlayerEntersDimension",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "desert_dim_player_enters_dimension",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MaatShrine",
+      "type": "block",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maat_shrine"
+    },
+    {
+      "name": "MaatShrineOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "maat_shrine_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RedstoneCrystal",
+      "type": "item",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "redstone_crystal"
+    },
+    {
+      "name": "RCRecipe",
+      "type": "recipe",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rc_recipe"
+    },
+    {
+      "name": "ReAnkh",
+      "type": "item",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "re_ankh"
+    },
+    {
+      "name": "RARecipe",
+      "type": "recipe",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ra_recipe"
+    },
+    {
+      "name": "OsirisAnkhMakeItemGlow",
+      "type": "procedure",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osiris_ankh_make_item_glow",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "OsirisAnkh",
+      "type": "item",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "osiris_ankh"
+    },
+    {
+      "name": "OARecipe",
+      "type": "recipe",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "oa_recipe"
+    },
+    {
+      "name": "ReAnkhMakeItemGlow",
+      "type": "procedure",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "re_ankh_make_item_glow",
+      "metadata": {
+        "return_type": "logic",
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MSRecipe",
+      "type": "recipe",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ms_recipe"
+    },
+    {
+      "name": "SaRecipe",
+      "type": "recipe",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sa_recipe"
+    },
+    {
+      "name": "GravellyDesert",
+      "type": "biome",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gravelly_desert"
+    }
+  ],
+  "variable_elements": [
+    {
+      "name": "osiris_ankh_radius",
+      "type": "number",
+      "scope": "map",
+      "value": "12.0"
+    }
+  ],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.desertdimension.desert_dim": "Desert Dim Portal Igniter",
+      "item.desertdimension.re_ankh": "Re\u0027s Ankh",
+      "block.desertdimension.stone_of_isis": "Stone of Isis",
+      "item.desertdimension.ankh": "Ankh",
+      "biome.desertdimension.oasis": "Desert Oasis",
+      "item.desertdimension.desert_portal_bucket": "Desert Portal Bucket",
+      "item.desertdimension.osiris_ankh": "Osiris\u0027 Ankh",
+      "item.desertdimension.redstone_crystal": "Redstone Crystal",
+      "fluid.desertdimension.desert_portal": "Desert Portal",
+      "block.desertdimension.wet_sand": "Wet Sand",
+      "block.desertdimension.desert_portal": "Desert Portal",
+      "block.desertdimension.maat_shrine": "Maat Shrine",
+      "biome.desertdimension.gravelly_desert": "Gravelly Desert "
+    },
+    "fr_fr": {
+      "item.desertdimension.desert_dim": "Allumeur de portail du Désert",
+      "item.desertdimension.re_ankh": "Ânkh de Ré",
+      "block.desertdimension.stone_of_isis": "Pierre d\u0027Isis",
+      "item.desertdimension.ankh": "Ânkh",
+      "biome.desertdimension.oasis": "Oasis du désert",
+      "item.desertdimension.desert_portal_bucket": "Seau de portail du Désert",
+      "item.desertdimension.osiris_ankh": "Ânkh d\u0027Osiris",
+      "item.desertdimension.redstone_crystal": "Cristal de redstone",
+      "fluid.desertdimension.desert_portal": "Portail du Désert",
+      "block.desertdimension.wet_sand": "Sable humide",
+      "block.desertdimension.desert_portal": "Portail du Désert",
+      "block.desertdimension.maat_shrine": "Autel de Maat",
+      "biome.desertdimension.gravelly_desert": "Désert pierreux"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "desertdimension",
+    "modName": "DesertDimension",
+    "version": "1.0.0",
+    "author": "tarku, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.17.1",
+    "modElementsPackage": "net.mcreator.desertdimension",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202100353117
+}

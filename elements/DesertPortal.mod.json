@@ -1,0 +1,50 @@
+{
+  "_fv": 24,
+  "_type": "fluid",
+  "definition": {
+    "name": "Desert Portal",
+    "bucketName": "Desert Portal Bucket",
+    "textureStill": "desert_portal",
+    "textureFlowing": "desert_portal",
+    "tintType": "No tint",
+    "canMultiply": false,
+    "flowRate": 2000,
+    "levelDecrease": 8,
+    "slopeFindDistance": 4,
+    "spawnParticles": false,
+    "dripParticle": {
+      "value": "EXPLOSION_NORMAL"
+    },
+    "flowStrength": 1.0,
+    "luminosity": 10,
+    "density": 99999,
+    "viscosity": 99999,
+    "isGas": false,
+    "temperature": 300,
+    "type": "WATER",
+    "generateBucket": false,
+    "textureBucket": "",
+    "creativeTab": {
+      "value": "MISC"
+    },
+    "emptySound": {
+      "value": ""
+    },
+    "rarity": "COMMON",
+    "specialInfo": [],
+    "resistance": 100.0,
+    "luminance": 10,
+    "lightOpacity": 0,
+    "emissiveRendering": true,
+    "tickRate": 10,
+    "flammability": 0,
+    "fireSpreadSpeed": 0,
+    "colorOnMap": "DEFAULT",
+    "frequencyOnChunks": 5,
+    "spawnWorldTypes": [],
+    "restrictionBiomes": [],
+    "onEntityCollides": {
+      "name": "DesertPortalMobplayerCollidesBlock"
+    }
+  }
+}

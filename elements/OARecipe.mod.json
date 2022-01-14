@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "osiris_ankh",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "Items.EMERALD"
+      },
+      {
+        "value": "CUSTOM:Ankh"
+      },
+      {
+        "value": "Items.EMERALD"
+      },
+      {
+        "value": "CUSTOM:Ankh"
+      },
+      {
+        "value": "Items.BONE"
+      },
+      {
+        "value": "CUSTOM:Ankh"
+      },
+      {
+        "value": "Items.EMERALD"
+      },
+      {
+        "value": "CUSTOM:Ankh"
+      },
+      {
+        "value": "Items.EMERALD"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:OsirisAnkh"
+    },
+    "name": "oa_recipe",
+    "namespace": "mod"
+  }
+}

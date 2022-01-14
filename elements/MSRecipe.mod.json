@@ -1,0 +1,46 @@
+{
+  "_fv": 24,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "maats_shrine",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:StoneOfIsis"
+      },
+      {
+        "value": "CUSTOM:RedstoneCrystal"
+      },
+      {
+        "value": "CUSTOM:StoneOfIsis"
+      },
+      {
+        "value": "Items.DYE#4"
+      },
+      {
+        "value": "CUSTOM:Ankh"
+      },
+      {
+        "value": "Items.EMERALD"
+      },
+      {
+        "value": "CUSTOM:StoneOfIsis"
+      },
+      {
+        "value": "Items.DIAMOND"
+      },
+      {
+        "value": "CUSTOM:StoneOfIsis"
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MaatShrine"
+    },
+    "name": "ms_recipe",
+    "namespace": "mod"
+  }
+}

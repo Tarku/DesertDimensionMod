@@ -1,0 +1,42 @@
+{
+  "group": "maats_shrine",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "desertdimension:stone_of_isis"
+    },
+    "1": {
+      "item": "desertdimension:redstone_crystal"
+    },
+    "2": {
+      "item": "desertdimension:stone_of_isis"
+    },
+    "3": {
+      "item": "minecraft:lapis_lazuli"
+    },
+    "4": {
+      "item": "desertdimension:ankh"
+    },
+    "5": {
+      "item": "minecraft:emerald"
+    },
+    "6": {
+      "item": "desertdimension:stone_of_isis"
+    },
+    "7": {
+      "item": "minecraft:diamond"
+    },
+    "8": {
+      "item": "desertdimension:stone_of_isis"
+    }
+  },
+  "result": {
+    "item": "desertdimension:maat_shrine",
+    "count": 1
+  }
+}

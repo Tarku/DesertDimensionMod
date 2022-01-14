@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "blessed_stone_top",
+        "1": "maat_shrine_back",
+        "2": "maat_shrine_front",
+        "3": "maat_shrine_left",
+        "4": "maat_shrine_right",
+        "missing": "blessed_stone_top"
+      },
+      "name": "default"
+    }
+  }
+}

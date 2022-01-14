@@ -1,0 +1,27 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "desertdimension:block/maat_shrine"
+    },
+    "facing=east": {
+      "model": "desertdimension:block/maat_shrine",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "desertdimension:block/maat_shrine",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "desertdimension:block/maat_shrine",
+      "y": 270
+    },
+    "facing=up": {
+      "model": "desertdimension:block/maat_shrine",
+      "x": 270
+    },
+    "facing=down": {
+      "model": "desertdimension:block/maat_shrine",
+      "x": 90
+    }
+  }
+}

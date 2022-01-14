@@ -1,0 +1,42 @@
+{
+  "group": "re_ankh",
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "desertdimension:redstone_crystal"
+    },
+    "1": {
+      "item": "desertdimension:ankh"
+    },
+    "2": {
+      "item": "desertdimension:redstone_crystal"
+    },
+    "3": {
+      "item": "desertdimension:ankh"
+    },
+    "4": {
+      "item": "minecraft:blaze_powder"
+    },
+    "5": {
+      "item": "desertdimension:ankh"
+    },
+    "6": {
+      "item": "desertdimension:redstone_crystal"
+    },
+    "7": {
+      "item": "desertdimension:ankh"
+    },
+    "8": {
+      "item": "desertdimension:redstone_crystal"
+    }
+  },
+  "result": {
+    "item": "desertdimension:re_ankh",
+    "count": 1
+  }
+}

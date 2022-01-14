@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "desertdimension:blocks/bst2",
+    "up": "desertdimension:blocks/bst2",
+    "north": "desertdimension:blocks/blessed_stone",
+    "east": "desertdimension:blocks/blessed_stone",
+    "south": "desertdimension:blocks/blessed_stone",
+    "west": "desertdimension:blocks/blessed_stone",
+    "particle": "desertdimension:blocks/bst2"
+  }
+}
