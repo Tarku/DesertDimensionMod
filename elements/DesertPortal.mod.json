@@ -8,7 +8,7 @@
     "textureFlowing": "desert_portal",
     "tintType": "No tint",
     "canMultiply": false,
-    "flowRate": 2000,
+    "flowRate": 2034,
     "levelDecrease": 8,
     "slopeFindDistance": 4,
     "spawnParticles": false,
@@ -43,6 +43,9 @@
     "frequencyOnChunks": 5,
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
+    "onNeighbourChanges": {
+      "name": "DesertPortalNeighbourBlockChanges"
+    },
     "onEntityCollides": {
       "name": "DesertPortalMobplayerCollidesBlock"
     }

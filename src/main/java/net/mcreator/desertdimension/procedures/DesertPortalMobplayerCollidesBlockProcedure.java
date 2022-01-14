@@ -18,10 +18,9 @@ public class DesertPortalMobplayerCollidesBlockProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
-		if ((entity.level.dimension()) == (Level.OVERWORLD)) {
+		if ((entity.level.dimension()) == (ResourceKey.create(Registry.DIMENSION_REGISTRY, new ResourceLocation("desertdimension:desert_dim")))) {
 			if (entity instanceof ServerPlayer _player && !_player.level.isClientSide()) {
-				ResourceKey<Level> destinationType = ResourceKey.create(Registry.DIMENSION_REGISTRY,
-						new ResourceLocation("desertdimension:desert_dim"));
+				ResourceKey<Level> destinationType = Level.OVERWORLD;
 				if (_player.level.dimension() == destinationType)
 					return;
 				ServerLevel nextLevel = _player.server.getLevel(destinationType);
@@ -35,10 +34,10 @@ public class DesertPortalMobplayerCollidesBlockProcedure {
 					_player.connection.send(new ClientboundLevelEventPacket(1032, BlockPos.ZERO, 0, false));
 				}
 			}
-		} else if ((entity.level.dimension()) == (ResourceKey.create(Registry.DIMENSION_REGISTRY,
-				new ResourceLocation("desertdimension:desert_dim")))) {
+		} else {
 			if (entity instanceof ServerPlayer _player && !_player.level.isClientSide()) {
-				ResourceKey<Level> destinationType = Level.OVERWORLD;
+				ResourceKey<Level> destinationType = ResourceKey.create(Registry.DIMENSION_REGISTRY,
+						new ResourceLocation("desertdimension:desert_dim"));
 				if (_player.level.dimension() == destinationType)
 					return;
 				ServerLevel nextLevel = _player.server.getLevel(destinationType);

@@ -21,7 +21,7 @@ public abstract class DesertPortalFluid extends ForgeFlowingFluid {
 
 	).explosionResistance(100f)
 
-			.tickRate(2000).levelDecreasePerBlock(8)
+			.tickRate(2034).levelDecreasePerBlock(8)
 
 			.block(() -> (LiquidBlock) DesertdimensionModBlocks.DESERT_PORTAL);
 
